@@ -84,3 +84,8 @@ public class DiceGame {
 			JOptionPane.showMessageDialog(null,"Thank you! Have a nice day.");
 	}
 }
+
+// Not very good use:
+//		DiceGameObjects classObject = new DiceGameObjects("Name");
+//...		
+//		classObject.setName(name);
