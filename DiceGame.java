@@ -69,7 +69,7 @@ public class DiceGame {
 				}
 			}
 			
-			playAgain = Integer.parseInt(JOptionPane.showInputDialog("\n\nPress 1 to play again or 2 to exit and calculate results: "));
+			playAgain = Integer.parseInt(JOptionPane.showInputDialog("\n\nPress 1 to play again\nPress 2 to exit and calculate results "));
 			
 		}
 		while (playAgain ==1);
