@@ -50,7 +50,7 @@ public class DiceGameObjects {
 	public double getWinPercent()
 	{
 		double winPercent = (win/(double)(gameCount-1))*100;
-		return winPercent;
+		return Double.parseDouble(String.format("%.0f",winPercent));
 	}
 	public double getEvenWin()
 	{
@@ -59,12 +59,12 @@ public class DiceGameObjects {
 	public double getEvenGuessPercent()
 	{
 		double evenGuessPercent = (evenGuess/(double)(gameCount-1))*100;
-		return evenGuessPercent;
+		return Double.parseDouble(String.format("%.0f",evenGuessPercent));
 	}
 	public double getOddDicePercent()
 	{
 		double oddDicePercent = (oddDice/(double)(gameCount-1))*100;
-		return oddDicePercent;
+		return Double.parseDouble(String.format("%.0f", oddDicePercent));
 	}
 	
 	public int getDiceNum()
