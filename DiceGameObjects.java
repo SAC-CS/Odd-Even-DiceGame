@@ -78,3 +78,6 @@ public class DiceGameObjects {
 	}
 
 }
+
+
+// Hi Steve...please implement at least 1 constructor
