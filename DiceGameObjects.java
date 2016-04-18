@@ -6,6 +6,11 @@ public class DiceGameObjects {
 	private double evenGuess = 0, oddDice=0;
 	public int gameCount = 0;
 	
+	public DiceGameObjects (String name)
+	{
+		this.name = name;
+	}
+	
 	public void setName (String name)
 	{
 		this.name = name;
