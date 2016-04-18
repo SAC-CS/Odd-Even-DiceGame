@@ -7,7 +7,7 @@ public class DiceGame {
 		
 		Scanner input = new Scanner (System.in);
 		
-		DiceGameObjects classObject = new DiceGameObjects();
+		DiceGameObjects classObject = new DiceGameObjects("Name");
 		
 		int playAgain, roll, userInput, gameCount=1;
 		String userChoice = null;
